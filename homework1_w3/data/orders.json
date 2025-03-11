@@ -1,0 +1,48 @@
+[
+  {
+    "id": 1,
+    "customerName": "John Doe",
+    "items": [
+      {
+        "productId": 1,
+        "productName": "Sample Product",
+        "quantity": 2,
+        "unitPrice": 19.99,
+        "total": 39.98
+      },
+      {
+        "productId": 2,
+        "productName": "Sample Product",
+        "quantity": 1,
+        "unitPrice": 19.99,
+        "total": 19.99
+      }
+    ],
+    "total": 59.97,
+    "status": "pending",
+    "createdAt": "2025-03-11T15:57:26.871Z"
+  },
+  {
+    "id": 2,
+    "customerName": "John Doe",
+    "items": [
+      {
+        "productId": 3,
+        "productName": "Sample Product",
+        "quantity": 2,
+        "unitPrice": 19.99,
+        "total": 39.98
+      },
+      {
+        "productId": 4,
+        "productName": "Sample Product",
+        "quantity": 1,
+        "unitPrice": 19.99,
+        "total": 19.99
+      }
+    ],
+    "total": 59.97,
+    "status": "pending",
+    "createdAt": "2025-03-11T16:01:51.820Z"
+  }
+]

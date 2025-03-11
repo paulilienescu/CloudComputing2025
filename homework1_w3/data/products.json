@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Sample Product",
+    "price": 19.99,
+    "description": "This is a sample product",
+    "createdAt": "2025-03-11T15:56:24.565Z"
+  },
+  {
+    "id": 2,
+    "name": "Sample Product",
+    "price": 19.99,
+    "description": "This is a sample product",
+    "createdAt": "2025-03-11T15:57:23.998Z"
+  },
+  {
+    "id": 3,
+    "name": "Sample Product",
+    "price": 19.99,
+    "description": "This is a sample product",
+    "createdAt": "2025-03-11T16:01:16.108Z"
+  },
+  {
+    "id": 4,
+    "name": "Sample Product",
+    "price": 19.99,
+    "description": "This is a sample product",
+    "createdAt": "2025-03-11T16:01:18.556Z"
+  }
+]
