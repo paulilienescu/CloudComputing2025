@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "customerName": "Paul Ilienescu",
+    "items": [
+      {
+        "productId": 3,
+        "productName": "LEGO NASA Apollo Saturn V",
+        "quantity": 2,
+        "unitPrice": 199.99,
+        "total": 399.98
+      },
+      {
+        "productId": 4,
+        "productName": "LEGO Technic Lamborghini Sián",
+        "quantity": 1,
+        "unitPrice": 469.99,
+        "total": 469.99
+      }
+    ],
+    "total": 869.97,
+    "status": "shipped",
+    "createdAt": "2025-03-25T13:39:24.739Z",
+    "updatedAt": "2025-03-25T13:54:35.985Z"
+  },
+  {
+    "id": 2,
+    "customerName": "Andreea Busuioc",
+    "items": [
+      {
+        "productId": 1,
+        "productName": "LEGO Millennium Falcon",
+        "quantity": 1,
+        "unitPrice": 1169.99,
+        "total": 1169.99
+      },
+      {
+        "productId": 3,
+        "productName": "LEGO NASA Apollo Saturn V",
+        "quantity": 2,
+        "unitPrice": 199.99,
+        "total": 399.98
+      },
+      {
+        "productId": 7,
+        "productName": "LEGO Super Mario Bowser’s Castle",
+        "quantity": 3,
+        "unitPrice": 119.99,
+        "total": 359.97
+      }
+    ],
+    "total": 1929.94,
+    "status": "delivered",
+    "createdAt": "2025-03-25T14:03:46.136Z",
+    "updatedAt": "2025-03-25T16:13:54.120Z"
+  },
+  {
+    "id": 3,
+    "customerName": "Andrei Popescu",
+    "items": [
+      {
+        "productId": 14,
+        "productName": "LEGO Batmobile Tumbler",
+        "quantity": 3,
+        "unitPrice": 249.99,
+        "total": 749.97
+      },
+      {
+        "productId": 2,
+        "productName": "LEGO Hogwarts Castle",
+        "quantity": 1,
+        "unitPrice": 499.99,
+        "total": 499.99
+      }
+    ],
+    "total": 1249.96,
+    "status": "pending",
+    "createdAt": "2025-03-25T16:13:08.362Z"
+  }
+]

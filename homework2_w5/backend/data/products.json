@@ -1,0 +1,100 @@
+[
+  {
+    "id": 1,
+    "name": "LEGO Millennium Falcon",
+    "price": 1169.99,
+    "description": "Set LEGO Star Wars",
+    "createdAt": "2025-03-25T12:48:06.848Z"
+  },
+  {
+    "id": 2,
+    "name": "LEGO Hogwarts Castle",
+    "price": 499.99,
+    "description": "Set LEGO Harry Potter",
+    "createdAt": "2025-03-25T13:00:01.000Z"
+  },
+  {
+    "id": 3,
+    "name": "LEGO NASA Apollo Saturn V",
+    "price": 199.99,
+    "description": "Set LEGO Ideas",
+    "createdAt": "2025-03-25T13:05:23.000Z"
+  },
+  {
+    "id": 4,
+    "name": "LEGO Technic Lamborghini Sián",
+    "price": 469.99,
+    "description": "Set LEGO Technic",
+    "createdAt": "2025-03-25T13:10:45.000Z"
+  },
+  {
+    "id": 5,
+    "name": "LEGO Creator Expert Taj Mahal",
+    "price": 379.99,
+    "description": "Set LEGO Creator",
+    "createdAt": "2025-03-25T13:15:10.000Z"
+  },
+  {
+    "id": 6,
+    "name": "LEGO Ideas Tree House",
+    "price": 199.99,
+    "description": "Set LEGO Ideas",
+    "createdAt": "2025-03-25T13:20:00.000Z"
+  },
+  {
+    "id": 7,
+    "name": "LEGO Super Mario Bowser’s Castle",
+    "price": 119.99,
+    "description": "Set LEGO Super Mario",
+    "createdAt": "2025-03-25T13:25:35.000Z"
+  },
+  {
+    "id": 8,
+    "name": "LEGO Disney Castle",
+    "price": 399.99,
+    "description": "Set LEGO Disney",
+    "createdAt": "2025-03-25T13:30:22.000Z"
+  },
+  {
+    "id": 9,
+    "name": "LEGO Ninjago City Gardens",
+    "price": 349.99,
+    "description": "Set LEGO Ninjago",
+    "createdAt": "2025-03-25T13:35:55.000Z"
+  },
+  {
+    "id": 10,
+    "name": "LEGO Technic Bugatti Chiron",
+    "price": 449.99,
+    "description": "Set LEGO Technic",
+    "createdAt": "2025-03-25T13:40:00.000Z"
+  },
+  {
+    "id": 11,
+    "name": "LEGO Stranger Things The Upside Down",
+    "price": 249.99,
+    "description": "Set LEGO Stranger Things",
+    "createdAt": "2025-03-25T13:45:10.000Z"
+  },
+  {
+    "id": 12,
+    "name": "LEGO Art World Map",
+    "price": 249.99,
+    "description": "Set LEGO Art",
+    "createdAt": "2025-03-25T13:50:00.000Z"
+  },
+  {
+    "id": 13,
+    "name": "LEGO Architecture Statue of Liberty",
+    "price": 129.99,
+    "description": "Set LEGO Architecture",
+    "createdAt": "2025-03-25T13:55:33.000Z"
+  },
+  {
+    "id": 14,
+    "name": "LEGO Batmobile Tumbler",
+    "price": 249.99,
+    "description": "Set LEGO Star Wars",
+    "createdAt": "2025-03-25T15:46:30.466Z"
+  }
+]
