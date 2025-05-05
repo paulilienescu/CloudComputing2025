@@ -1,28 +1,5 @@
 [
   {
-    "id": 1,
-    "customerName": "John Doe",
-    "items": [
-      {
-        "productId": 1,
-        "productName": "Sample Product",
-        "quantity": 2,
-        "unitPrice": 19.99,
-        "total": 39.98
-      },
-      {
-        "productId": 2,
-        "productName": "Sample Product",
-        "quantity": 1,
-        "unitPrice": 19.99,
-        "total": 19.99
-      }
-    ],
-    "total": 59.97,
-    "status": "pending",
-    "createdAt": "2025-03-11T15:57:26.871Z"
-  },
-  {
     "id": 2,
     "customerName": "John Doe",
     "items": [
@@ -35,14 +12,83 @@
       },
       {
         "productId": 4,
-        "productName": "Sample Product",
+        "productName": "Alt Sample Product",
         "quantity": 1,
-        "unitPrice": 19.99,
-        "total": 19.99
+        "unitPrice": 49.99,
+        "total": 49.99
       }
     ],
-    "total": 59.97,
+    "total": 89.97,
     "status": "pending",
-    "createdAt": "2025-03-11T16:01:51.820Z"
+    "createdAt": "2025-03-11T16:26:21.869Z"
+  },
+  {
+    "id": 3,
+    "customerName": "John Doe",
+    "items": [
+      {
+        "productId": 3,
+        "productName": "Sample Product",
+        "quantity": 2,
+        "unitPrice": 19.99,
+        "total": 39.98
+      },
+      {
+        "productId": 4,
+        "productName": "Alt Sample Product",
+        "quantity": 1,
+        "unitPrice": 49.99,
+        "total": 49.99
+      },
+      {
+        "productId": 2,
+        "productName": "Updated Product",
+        "quantity": 3,
+        "unitPrice": 29.99,
+        "total": 89.97
+      }
+    ],
+    "total": 179.94,
+    "status": "pending",
+    "createdAt": "2025-03-11T16:26:54.333Z"
+  },
+  {
+    "id": 4,
+    "customerName": "John Doe",
+    "items": [
+      {
+        "productId": 3,
+        "productName": "Sample Product",
+        "quantity": 2,
+        "unitPrice": 19.99,
+        "total": 39.98
+      }
+    ],
+    "total": 39.98,
+    "status": "pending",
+    "createdAt": "2025-03-25T13:19:07.719Z"
+  },
+  {
+    "id": 5,
+    "customerName": "Paul Ilienescu",
+    "items": [
+      {
+        "productId": 3,
+        "productName": "Sample Product",
+        "quantity": 2,
+        "unitPrice": 19.99,
+        "total": 39.98
+      },
+      {
+        "productId": 4,
+        "productName": "Alt Sample Product",
+        "quantity": 1,
+        "unitPrice": 49.99,
+        "total": 49.99
+      }
+    ],
+    "total": 89.97,
+    "status": "pending",
+    "createdAt": "2025-03-25T13:20:51.916Z"
   }
 ]

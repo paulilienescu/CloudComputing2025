@@ -1,17 +1,11 @@
 [
   {
-    "id": 1,
-    "name": "Sample Product",
-    "price": 19.99,
-    "description": "This is a sample product",
-    "createdAt": "2025-03-11T15:56:24.565Z"
-  },
-  {
     "id": 2,
-    "name": "Sample Product",
-    "price": 19.99,
-    "description": "This is a sample product",
-    "createdAt": "2025-03-11T15:57:23.998Z"
+    "name": "Updated Product",
+    "price": 29.99,
+    "description": "This is an updated product",
+    "createdAt": "2025-03-11T15:57:23.998Z",
+    "updatedAt": "2025-03-11T16:23:52.809Z"
   },
   {
     "id": 3,
@@ -22,9 +16,23 @@
   },
   {
     "id": 4,
+    "name": "Alt Sample Product",
+    "price": 49.99,
+    "description": "This is a sample product",
+    "createdAt": "2025-03-11T16:25:56.710Z"
+  },
+  {
+    "id": 5,
     "name": "Sample Product",
     "price": 19.99,
     "description": "This is a sample product",
-    "createdAt": "2025-03-11T16:01:18.556Z"
+    "createdAt": "2025-03-11T17:00:48.871Z"
+  },
+  {
+    "id": 6,
+    "name": "Updated Product",
+    "price": 69.99,
+    "description": "This is a sample product",
+    "createdAt": "2025-03-25T12:26:22.927Z"
   }
 ]
