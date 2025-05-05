@@ -3,16 +3,46 @@ const bodyParser = require("body-parser");
 
 const app = express();
 app.use(bodyParser.json());
+app.use(express.json());
 
 let products = [];
 let orders = [];
+let users = [];
 
 app.get("/", (req, res) => {
   res.send("Catalog App running on Azure");
 });
 
-// ------------------- PRODUCTS -------------------
+// ------------------- REGISTER -------------------
+app.post('/register', (req, res) => {
+    const { username, password } = req.body;
+  
+    if (!username || !password) {
+      return res.status(400).json({ error: 'Username and password are required' });
+    }
+  
+    const existingUser = users.find(u => u.username === username);
+    if (existingUser) {
+      return res.status(409).json({ error: 'User already exists' });
+    }
+  
+    users.push({ username, password });
+    res.status(201).json({ message: 'User registered successfully' });
+  });
 
+  
+// ------------------- LOGIN -------------------
+app.post('/login', (req, res) => {
+  const { username, password } = req.body;
+  const user = users.find(u => u.username === username && u.password === password);
+  if (!user) {
+    return res.status(401).json({ message: 'Invalid credentials' });
+  }
+  res.json({ message: 'Login successful' });
+});
+
+
+// ------------------- PRODUCTS -------------------
 app.get("/products", (req, res) => {
   res.json(products);
 });
@@ -28,7 +58,6 @@ app.post("/products", (req, res) => {
 });
 
 // ------------------- ORDERS -------------------
-
 app.get("/orders", (req, res) => {
   res.json(orders);
 });
@@ -57,7 +86,6 @@ app.post("/orders", (req, res) => {
 });
 
 // ------------------- SERVER -------------------
-
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
