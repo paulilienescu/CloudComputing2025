@@ -10,7 +10,7 @@ async function registerUser(req, res) {
 
   try {
     const db = await database();
-    const container = db.container(containerId);
+    const container = db.container("users");
 
     const { resources } = await container.items
       .query({
@@ -40,7 +40,7 @@ async function loginUser(req, res) {
 
   try {
     const db = await database();
-    const container = db.container(containerId);
+    const container = db.container("users");
 
     const { resources } = await container.items
       .query({
