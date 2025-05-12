@@ -1,6 +1,6 @@
 // controllers/userController.js
 const bcrypt = require('bcryptjs');
-const { getDatabase } = require('../config/cosmosClient');
+const { database } = require('../config/cosmosClient');
 const User = require('../models/userModel');
 
 const containerId = 'users';
@@ -9,7 +9,7 @@ async function registerUser(req, res) {
   const { username, password } = req.body;
 
   try {
-    const db = await getDatabase();
+    const db = await database();
     const container = db.container(containerId);
 
     const { resources } = await container.items
@@ -39,7 +39,7 @@ async function loginUser(req, res) {
   const { username, password } = req.body;
 
   try {
-    const db = await getDatabase();
+    const db = await database();
     const container = db.container(containerId);
 
     const { resources } = await container.items
