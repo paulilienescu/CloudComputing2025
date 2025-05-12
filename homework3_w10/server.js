@@ -1,11 +1,13 @@
 const express = require("express");
 const app = express();
 require("dotenv").config();
+
 const productRoutes = require("./routes/productRoutes");
+const userRoutes = require('./routes/userRoutes');
 
 app.use(express.json());
 
-// Montează ruta pe /products
+app.use('/users', userRoutes);
 app.use("/products", productRoutes);
 
 app.get("/", (req, res) => {

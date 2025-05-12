@@ -8,5 +8,6 @@ const databaseId = process.env.COSMOS_DB_DATABASE_ID;
 
 const client = new CosmosClient({ endpoint, key });
 const database = client.database(databaseId);
+const container = database.container("products");
 
 module.exports = { client, database };
